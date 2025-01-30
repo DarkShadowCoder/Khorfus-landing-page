@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
 
-function PorfolioItems(props) {
+function PorfolioItems(props:any) {
   return (
     <div className='grid-item'>
         <div className=' relative overflow-hidden rounded'>
