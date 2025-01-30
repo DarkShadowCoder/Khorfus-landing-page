@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
 
-export default function BlogsItems(props) {
+export default function BlogsItems(props:any) {
   return (
     <div className='w-full px-4 md:w-1/2 lg:w-1/3 lg:max-w-[400px]'>
       <div className='mb-10'>
