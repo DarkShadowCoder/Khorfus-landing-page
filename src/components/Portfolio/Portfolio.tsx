@@ -5,7 +5,7 @@ import PorfolioItems from './PorfolioItems'
 
 export default function Portfolio() {
   return (
-    <div className='pt-14 sm:pt-20 lg:pt-[130px]'>
+    <div className='pt-14 sm:pt-20 lg:pt-[130px]' id="products">
       <div className='px-4 xl:container'>
         <div className='w-full flex items-center justify-center'>
           <TitleItem 

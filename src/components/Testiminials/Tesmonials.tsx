@@ -125,7 +125,7 @@ const TestimonialsColumn = (props: {className?:string;
 
 export default function Tesmonials() {
   return (
-    <div className='pt-14 sm:pt-20 lg:pt-[130px]'>
+    <div className='pt-14 sm:pt-20 lg:pt-[130px]' id='testimonials'>
       <div className='px-4 xl:container'>
         <div className='w-full flex items-center text-center justify-center'>
           <TitleItem

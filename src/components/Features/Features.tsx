@@ -4,7 +4,7 @@ import FeaturesItems from './FeaturesItems'
 
 export default function Features() {
   return (
-    <div className='pt-14 sm:pt-20 lg:pt-[130px]'>
+    <div className='pt-14 sm:pt-20 lg:pt-[130px]' id='domaines'>
       <div className='px-4 xl:container'>
         <div className=''>
           <TitleItem 

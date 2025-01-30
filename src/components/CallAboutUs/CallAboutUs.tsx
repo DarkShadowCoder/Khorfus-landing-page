@@ -3,7 +3,7 @@ import React from 'react'
 
 export default function CallAboutUs() {
   return (
-    <div className='z-40 relative pt-14 sm:pt-20 lg:pt-[130px]  '>
+    <div className='z-40 relative pt-14 sm:pt-20 lg:pt-[130px]' id='start'>
       <div className='px-8 pb-16 xl:container '>
         <div className='relative overflow-hidden bg-cover bg-center px-10 py-[60px] drop-shadow-light drop-shadow-none sm:px-[70px] w-full'>
           <div className='absolute left-0 top-0 z-10 h-full w-full bg-noise-pattern  bg-cover bg-center  opacity-40'></div>

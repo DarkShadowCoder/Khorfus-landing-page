@@ -25,22 +25,22 @@ export default function Navbar() {
                 <nav className=''>
                   <ul className='navbar flex flex-col items-center justify-center space-y-5 text-center lg:flex-row lg:justify-start lg:space-x-6 lg:space-y-0 xl:space-x-10'>
                     <li>
-                      <a className='cursor-pointer inline-flex items-center justify-center text-center font-heading text-base text-dark-text hover:text-primary dark:hover:text-white menu-scroll'>
+                      <a href='#domaines' className='cursor-pointer inline-flex items-center justify-center text-center font-heading text-base text-dark-text hover:text-primary dark:hover:text-white menu-scroll'>
                         Domaines
                       </a>
                     </li>
                     <li>
-                      <a className='cursor-pointer inline-flex items-center justify-center text-center font-heading text-base text-dark-text hover:text-primary dark:hover:text-white menu-scroll'>
+                      <a href='#about' className='cursor-pointer inline-flex items-center justify-center text-center font-heading text-base text-dark-text hover:text-primary dark:hover:text-white menu-scroll'>
                         A propos
                       </a>
                     </li>
                     <li>
-                      <a className='cursor-pointer inline-flex items-center justify-center text-center font-heading text-base text-dark-text hover:text-primary dark:hover:text-white menu-scroll'>
+                      <a href='#products' className='cursor-pointer inline-flex items-center justify-center text-center font-heading text-base text-dark-text hover:text-primary dark:hover:text-white menu-scroll'>
                         Produits
                       </a>
                     </li>
                     <li>
-                      <a className='cursor-pointer inline-flex items-center justify-center text-center font-heading text-base text-dark-text hover:text-primary dark:hover:text-white menu-scroll'>
+                      <a href='#testimonials' className='cursor-pointer inline-flex items-center justify-center text-center font-heading text-base text-dark-text hover:text-primary dark:hover:text-white menu-scroll'>
                         Temoignages
                       </a>
                     </li>
@@ -49,7 +49,7 @@ export default function Navbar() {
               </div>
             </div>
             <div className='absolute z-50 invisible xl:visible bottom-0 left-0 flex w-full items-center justify-between space-x-5 self-end p-5 lg:static lg:w-auto lg:self-center lg:p-0'>
-              <a href="" className='w-full whitespace-nowrap rounded bg-primary px-6 py-3 text-center font-heading text-white hover:bg-opacity-90 lg:w-auto'>
+              <a href="#start" className='w-full whitespace-nowrap rounded bg-primary px-6 py-3 text-center font-heading text-white hover:bg-opacity-90 lg:w-auto'>
                 Se connecter
               </a>
               <a href="" className='w-full whitespace-nowrap rounded bg-[#222C40] px-6 py-3 text-center font-heading text-white hover:bg-opacity-90 lg:w-auto'>
