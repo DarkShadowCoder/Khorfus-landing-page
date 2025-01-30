@@ -1,4 +1,3 @@
-import { ClerkProvider , clerkClient, ClerkLoading, ClerkLoaded } from "@clerk/nextjs";
 import RootLayout from "./layout";
 import React from "react";
 
