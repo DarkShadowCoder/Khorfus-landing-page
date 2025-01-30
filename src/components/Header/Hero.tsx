@@ -1,6 +1,5 @@
 import React from 'react'
 import Image from 'next/image'
-import {motion} from "framer-motion"
 
 export default function Hero() {
   return (
@@ -8,8 +7,8 @@ export default function Hero() {
         <div className='absolute top-0 left-0 w-full '>
           <div className='absolute bottom-0 left-0 -z-10 h-full w-full bg-noise-pattern bg-cover bg-center opacity-10 dark:opacity-40'>
           </div>
-          <div className='absolute right-0 top-0 -z-10 bg-white'>
-            <img src="/assets/hero-bg1.jpeg" alt="hero bg 1" className='min-h-96'/>
+          <div className='absolute top-0 xl:right-20 right-0 -z-10 bg-white w-full max-w-[1750px]'>
+            <img src="/assets/hero-bg1.jpeg" alt="hero bg 1" className='min-h-96 w-full left-56'/>
           </div>
         </div>
         <div className='relative flex flex-col lg:flex-row justify-center items-center pt-12 gap-4'>
@@ -21,9 +20,8 @@ export default function Hero() {
 
             <div className=''>
               <h1 className='lg:text-4xl text-2xl text-white font-bold text-center flex flex-wrap '>
-                Khorfus developpe des produits
-                <span className=''>&ensp; Intregrant </span>
-                <span className='use-automation-write overflow-hidden text-nowrap w-[26rem] '> &ensp;l'intelligence Artificielle</span>
+                Developpement de produits
+                <span className='use-automation-write overflow-hidden text-nowrap w-[26rem] '> &ensp;d'intelligence Artificielle</span>
                 <span className='text-inherit text-slate-400 use-automation-ping'>|</span>
               </h1>
               <p className='text-md mt-8 mb-10 lg:mb-8 text-center lg:text-justify'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non debitis reprehenderit voluptatum consequuntur repellendus, necessitatibus eveniet ipsam officia laudantium repellat maiores, nisi ratione!</p>
