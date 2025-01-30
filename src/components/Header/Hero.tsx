@@ -21,7 +21,7 @@ export default function Hero() {
             <div className=''>
               <h1 className='lg:text-4xl text-2xl text-white font-bold text-center flex flex-wrap '>
                 Developpement de produits
-                <span className='use-automation-write overflow-hidden text-nowrap w-[26rem] '> &ensp;d'intelligence Artificielle</span>
+                <span className='use-automation-write overflow-hidden text-nowrap w-[26rem] '> &ensp;d&apos;intelligence Artificielle</span>
                 <span className='text-inherit text-slate-400 use-automation-ping'>|</span>
               </h1>
               <p className='text-md mt-8 mb-10 lg:mb-8 text-center lg:text-justify'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non debitis reprehenderit voluptatum consequuntur repellendus, necessitatibus eveniet ipsam officia laudantium repellat maiores, nisi ratione!</p>
