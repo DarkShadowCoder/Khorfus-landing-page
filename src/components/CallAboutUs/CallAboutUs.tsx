@@ -20,7 +20,7 @@ export default function CallAboutUs() {
                 <h2 className='mb-4 font-heading text-xl font-semibold leading-tight text-dark text-white sm:text-[38px]'>
                   Recherche de collaboration, Rejoignez nous!
                 </h2>
-                <p className='text-md'>Collaborer avec Khorfus pour booster l'impact de vos projets </p>
+                <p className='text-md'>Collaborer avec Khorfus pour booster l&apos;impact de vos projets </p>
               </div>
             </div>
             <div className='w-full px-4 lg:w-1/3 flex items-end justify-end'>
