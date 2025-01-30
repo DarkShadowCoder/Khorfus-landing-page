@@ -53,7 +53,7 @@ export default function Navbar() {
                 Se connecter
               </a>
               <a href="" className='w-full whitespace-nowrap rounded bg-[#222C40] px-6 py-3 text-center font-heading text-white hover:bg-opacity-90 lg:w-auto'>
-                S'inscrire
+                S&apos;inscrire
               </a>
             </div>
             <div className='text-slate-50 absolute right-5 top-1/2 z-50 flex -translate-y-1/2 items-center lg:static lg:ml-4 lg:translate-y-0 xl:ml-6'>
