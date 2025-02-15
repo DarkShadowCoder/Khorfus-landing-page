@@ -7,21 +7,19 @@ export default function Hero() {
         <div className='absolute top-0 left-0 w-full '>
           <div className='absolute bottom-0 left-0 -z-10 h-full w-full bg-noise-pattern bg-cover bg-center opacity-10 dark:opacity-40'>
           </div>
-          <div className='absolute top-0 xl:right-20 right-0 -z-10 bg-white w-full max-w-[1750px]'>
-            <img src="/assets/hero-bg1.jpeg" alt="hero bg 1" className='min-h-96 w-full left-56'/>
+          <div className='absolute top-0 right-0 -z-10 bg-white h-screen w-full'>
+            <img src="/assets/hero-bg1.jpeg" alt="hero bg 1" className='min-h-full w-full left-56'/>
           </div>
         </div>
         <div className='relative flex flex-col lg:flex-row justify-center items-center pt-12 gap-4'>
           <div className='container flex flex-col justify-center gap-4 items-center w-full h-full'>
             <div className='px-5 py-2 w-fit h-auto rounded-full backdrop-blur-[200px]  text-white flex flex-row justify-between items-center gap-3'>
               <div className='rounded-full bg-blue-700 w-2 h-2 '></div>
-              <h1 className='text-white text-md font-semibold'>Khorfus empowered innovation</h1>
+              <h1 className='text-white text-md font-semibold'> Empowered by Innovation</h1>
             </div>
-
             <div className=''>
               <h1 className='lg:text-4xl text-2xl text-white font-bold text-center flex flex-wrap '>
-                Developpement de produits
-                <span className='use-automation-write overflow-hidden text-nowrap w-[26rem] '> &ensp;d&apos;intelligence Artificielle</span>
+                <span className='use-automation-write overflow-hidden text-nowrap w-[26rem] '>Intelligence Artificielle</span>
                 <span className='text-inherit text-slate-400 use-automation-ping'>|</span>
               </h1>
               <p className='text-md mt-8 mb-10 lg:mb-8 text-center lg:text-justify'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non debitis reprehenderit voluptatum consequuntur repellendus, necessitatibus eveniet ipsam officia laudantium repellat maiores, nisi ratione!</p>
