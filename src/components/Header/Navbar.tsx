@@ -1,7 +1,10 @@
-import React from 'react'
+"use client"
+import React, { useState } from 'react'
 import Image from 'next/image'
 
+
 export default function Navbar() {
+  const [nav, setNav] = useState(false);
   return (
     <header className='m-0 p-0 flex items-center justify-center w-full'>
       <div className='flex w-full flex-wrap px-5 lg:flex-nowrap lg:items-center lg:px-5 xl:px-10 2xl:px-20'>
@@ -10,13 +13,13 @@ export default function Navbar() {
         </div>
         <div className='header absolute left-0 top-0 w-full py-8 px-5 lg:flex-nowrap lg:items-center lg:px-5 xl:px-10 2xl:px-20'>
           <div className='flex w-full flex-wrap px-5 lg:flex-nowrap lg:items-center lg:px-5 xl:px-10 2xl:px-20 '>
-            <div className='relative z-[99] max-w-[250px] pr-4 lg:w-full lg:max-w-[220px] xl:max-w-[280px] flex justify-start items-center gap-2'>
-              <Image src={"/assets/khorfus-logo.png"}
+            <div className='relative z-40 max-w-[250px] pr-4 lg:w-full lg:max-w-[220px] xl:max-w-[280px] flex justify-start items-center gap-2'>
+              <Image src={"/assets/khorfus-bleu.png"}
               width={50} 
               height={50} 
-              alt='KHORFUS logo' 
+              alt='KHORFUS Logo' 
               />
-              <a href="/" className=''>
+              <a href="/" className='hidden md:block'>
                 <h1 className='font-bold text-pretty text-2xl text-white'>Khorfus</h1>
               </a>
             </div>
@@ -69,13 +72,35 @@ export default function Navbar() {
                   </button>
                 </div>
               </div>
-              <button type="button" className='relative z-50 flex h-10 w-10 items-center justify-center text-white lg:hidden'>
+              <button 
+              onClick={()=>setNav(true)}
+              type="button" className='relative z-50 flex h-10 w-10 items-center justify-center text-white lg:hidden'>
                 <svg width="22" height="22" viewBox="0 0 22 22" className="fill-current"><path d="M2.75 3.66666H19.25V5.49999H2.75V3.66666ZM2.75 10.0833H19.25V11.9167H2.75V10.0833ZM2.75 16.5H19.25V18.3333H2.75V16.5Z"></path></svg>
               </button>
             </div>
           </div>
+        </div>  
+      </div>
+      {nav&&
+      <div className="z-50 top-0 left-0 w-screen h-screen bg-black/30 backdrop-blur-sm flex-col  transition-transform justify-center items-center">
+        <div className='flex-col justify-between w-full h-full items-center content-center  transition-transform'>
+        <a href="" className='relative z-50 my-9 hover:bg-slate-800 shadow-md ease-linear duration-300 transition-all hover:transform flex h-10 w-full p-5 text-pretty text-xl rounded-md items-center justify-center text-white lg:hidden'>Domaines</a>
+          <a href="" className='relative z-50 my-9 hover:bg-slate-800 shadow-md ease-linear duration-300 transition-all hover:transform flex h-10 w-full p-5 text-pretty text-xl rounded-md items-center justify-center text-white lg:hidden'>A propos</a>
+          <a href="" className='relative z-50 my-9 hover:bg-slate-800 shadow-md ease-linear duration-300 transition-all hover:transform flex h-10 w-full p-5 text-pretty text-xl rounded-md items-center justify-center text-white lg:hidden'>Produits</a>
+          <a href="" className='relative z-50 my-9 hover:bg-slate-800 shadow-md ease-linear duration-300 transition-all hover:transform flex h-10 w-full p-5 text-pretty text-xl rounded-md items-center justify-center text-white lg:hidden'>Temoignages</a>
         </div>
       </div>
+      ||
+      <div className="z-50 hidden top-0 left-0 w-screen h-screen bg-black/30 backdrop-blur-sm transition-transform justify-center items-center">
+        <div className='flex-col justify-between w-full h-full items-center content-center  transition-transform'>
+          <a href="" className='relative z-50 my-9 hover:bg-slate-800 shadow-md ease-linear duration-300 transition-all hover:transform flex h-10 w-full p-5 text-pretty text-xl rounded-md items-center justify-center text-white lg:hidden'>Domaines</a>
+          <a href="" className='relative z-50 my-9 hover:bg-slate-800 shadow-md ease-linear duration-300 transition-all hover:transform flex h-10 w-full p-5 text-pretty text-xl rounded-md items-center justify-center text-white lg:hidden'>A propos</a>
+          <a href="" className='relative z-50 my-9 hover:bg-slate-800 shadow-md ease-linear duration-300 transition-all hover:transform flex h-10 w-full p-5 text-pretty text-xl rounded-md items-center justify-center text-white lg:hidden'>Produits</a>
+          <a href="" className='relative z-50 my-9 hover:bg-slate-800 shadow-md ease-linear duration-300 transition-all hover:transform flex h-10 w-full p-5 text-pretty text-xl rounded-md items-center justify-center text-white lg:hidden'>Temoignages</a>
+        </div>
+      </div>
+      }
+      
     </header>
   )
 }
